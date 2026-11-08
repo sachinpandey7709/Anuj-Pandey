@@ -1122,4 +1122,169 @@
 
                 <input type="tel"
                        name="phone"
-                       placeholder="Your Phone Numbe
+                       placeholder="Your Phone Number"
+                       pattern="[0-9]{10}"
+                       minlength="10"
+                       maxlength="10"
+                       inputmode="numeric"
+                       autocomplete="tel"
+                       title="Please enter exactly 10 digits"
+                       required>
+
+            </div>
+
+
+
+            <!-- Location -->
+
+            <div class="input-box">
+
+                <i class="bx bx-map-pin"></i>
+
+                <input type="text"
+                       name="location"
+                       id="location"
+                       placeholder="Your Location"
+                       autocomplete="address-level2"
+                       required>
+
+            </div>
+
+
+
+            <!-- Subject -->
+
+            <div class="input-box">
+
+                <i class="bx bx-edit-alt"></i>
+
+                <input type="text"
+                       name="message_subject"
+                       id="subject"
+                       placeholder="Enter Subject"
+                       autocomplete="off"
+                       required>
+
+            </div>
+
+
+
+            <!-- Message -->
+
+            <div class="input-box message-box">
+
+                <i class="bx bx-message-rounded"></i>
+
+                <textarea id="message"
+                          name="message"
+                          placeholder="Your Message"
+                          rows="6"
+                          minlength="10"
+                          maxlength="1000"
+                          required></textarea>
+
+
+                <div class="message-counter">
+
+                    <span id="charCount">0 / 1000</span>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Privacy Consent -->
+
+            <label class="privacy-check">
+
+                <input type="checkbox"
+                       name="consent"
+                       value="Accepted"
+                       required>
+
+                I'd love to hear from you! By submitting
+                this form, you agree to let me contact you
+                regarding your inquiry.
+
+            </label>
+
+
+
+            <!-- Submit Button -->
+
+            <button type="submit"
+                    class="btn submit-btn"
+                    id="submitBtn">
+
+                Submit Form
+
+                <i class="bx bx-send"></i>
+
+            </button>
+
+
+
+            <!-- Success / Error Message -->
+
+            <div id="formMessage"
+                 class="form-message"
+                 role="status"
+                 aria-live="polite">
+
+            </div>
+
+
+        </form>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- FOOTER -->
+<footer>
+
+
+    <h2>AP<span>.</span></h2>
+
+
+    <p>
+
+        © <span id="year"></span>
+
+        Anuj Pandey. All Rights Reserved.
+
+    </p>
+
+
+    <a href="#home">
+
+        Back to Top
+
+        <i class="bx bx-up-arrow-alt"></i>
+
+    </a>
+
+
+</footer>
+
+
+
+<!-- SweetAlert2 CDN -->
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+<!-- JavaScript -->
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
