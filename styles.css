@@ -1038,3 +1038,27 @@ footer a {
     object-position: center top;
     border-radius: 50%;
 }
+/* FIX PRODUCTION MANAGEMENT POSITION */
+
+.home-image {
+    position: relative;
+}
+
+.home-image .floating-box {
+    position: absolute;
+    z-index: 100;
+}
+
+.home-image .box-one {
+    top: 50px;
+    right: -80px;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+    .home-image .box-one {
+        top: 0;
+        right: 0;
+    }
+}
