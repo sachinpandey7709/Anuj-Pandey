@@ -1129,3 +1129,38 @@ footer a {
     display: block;
     border-radius: 50% !important;
 }
+
+/* ABOUT SECTION - FINAL IMAGE FIX */
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    width: 100%;
+}
+
+.about-icon {
+    width: 130px !important;
+    height: 130px !important;
+    min-width: 130px;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    margin: 0 auto;
+    border: 3px solid #00abf0;
+    box-shadow: 0 0 20px #00abf0;
+}
+
+.about-icon img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center top;
+    display: block;
+    border-radius: 50% !important;
+}
