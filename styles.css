@@ -1103,3 +1103,29 @@ footer a {
     display: block;
     border-radius: 50%;
 }
+
+/* ABOUT SECTION PROFILE IMAGE FIX */
+
+.about-container .about-icon {
+    width: 130px !important;
+    height: 130px !important;
+    min-width: 130px;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    margin: 0 auto 20px;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 3px solid #00abf0;
+    box-shadow: 0 0 15px #00abf0;
+    display: block;
+}
+
+.about-container .about-icon img {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    object-fit: cover !important;
+    object-position: center top;
+    display: block;
+    border-radius: 50% !important;
+}
