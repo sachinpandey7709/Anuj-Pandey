@@ -1062,3 +1062,25 @@ footer a {
         right: 0;
     }
 }
+
+.about-icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 4px solid #00abf0;
+    box-shadow: 0 0 20px #00abf0;
+}
+
+.about-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+}
