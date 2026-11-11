@@ -1164,3 +1164,11 @@ footer a {
     display: block;
     border-radius: 50% !important;
 }
+
+.gradient-text {
+    display: block;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
+    margin: 15px auto;
+}
